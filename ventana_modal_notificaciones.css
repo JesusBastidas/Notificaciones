@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   }
+.page{
+    background: ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_invisible{
+    top: 0;
+    left:0;
+    background: rbga (0,0,0,0.226);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display:none;
+}
+.v_modal{
+    background: linear-gradient(0deg, white 70%, crimson 30%);
+    width: 600px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+}
+.v_modal_close{
+    background: white;
+    position: absolute;
+    right: -20px;
+    color: crimson;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content:center;
+    cursor: pointer;
+}
+.encabezado_v_modal{
+    color: white;
+    font-size: 40px;
+}
+.mns_modal{
+    padding: 10px 30px;
+}
+.boton_modal{
+    width: 100%;
+    background: whitesmoke;
+    border-top: whitesmoke 1px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boton_notificaciones{
+    background: white;
+    padding: 8px 30px;
+    color: crimson;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid crimson;
+}
+.boton_notificaciones:hover{
+    background: crimson;
+    color:white;
+}
